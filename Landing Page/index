@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <h1 class="logo">Landing Page</h1>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h2>Digital marketing Services</h2>
+            <p>"Boost Your Brand with Cutting-Edge Digital Marketing—Let's Turn Clicks into Clients!"</p>
+            <a href="#services" class="btn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Us</h2>
+                <p>we are passionate digital marketing experts dedicated to helping businesses grow online. With innovative strategies 
+                    and data-driven solutions, we elevate brands to new heights. 
+                    Our mission is to turn your vision into measurable success, one campaign at a time.</p>
+            </div>
+            <div class="about-image">
+                <img src="abot.jpg" alt="About Us Image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <h2>Our Services</h2>
+        <div class="service-box">
+            <h3>Search Engine Optimization (SEO)</h3>
+            <p>Enhance your website's visibility on search engines, driving organic traffic and boosting your online presence.</p>
+        </div>
+        <div class="service-box">
+            <h3>Social Media Marketing</h3>
+            <p>Engage your audience with targeted campaigns across platforms like Facebook, Instagram, and LinkedIn, building brand loyalty and driving conversions.</p>
+        </div>
+        <div class="service-box">
+            <h3>Pay-Per-Click (PPC) Advertising</h3>
+            <p>Maximize ROI with highly effective ad campaigns on Google, Bing, and social media, reaching the right audience at the right time.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Digital Marketing Services. All rights reserved.</p>
+    </footer>
+</body>
+</html>
