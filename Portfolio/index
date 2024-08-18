@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>U Devika</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section-parallel">
+        <div class="text">
+            <h2>About Me</h2>
+            <p>Im currently pursuing my Bachelor of Engineering Degree on Electronics and Communication Engineering.I had done some projects on web development</p>
+        </div>
+        <div class="image">
+            <img src="resume.jpg" alt="Your Name">
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-parallel">
+        <div class="image">
+            <img src="skills.png" alt="Skills">
+        </div>
+        <div class="text">
+            <h2>Skills</h2>
+            <ul>
+                <li>Html,Css,Java Script</li>
+                <li>Java, C</li>
+                <li>SQL,Excel</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-parallel">
+        <div class="text">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Websites</h3>
+                <ul>
+                    <li> <p>Had created many websites using HTML, Css, Java Script</p></li>
+                    <li><p>Created a project Rapid Emergency Medical Aid System to save lives from accident</p></li>
+                </ul>
+               
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+        <div class="image">
+            <img src="project.jpg" alt="Projects">
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section-parallel">
+        <div class="image">
+            <img src="resume1.png" alt="Resume">
+        </div>
+        <div class="text">
+            <h2>Resume</h2>
+            <a href="Resume.docx" download>Download My Resume</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-parallel">
+        <div class="text">
+            <h2>Contact</h2>
+            <p>Email: sreedevika987@gmail.com</p>
+            <p>Phone: +917558153426</p>
+        </div>
+        <div class="image">
+            <img src="contact.jpg" alt="Contact">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Devika. All rights reserved.</p>
+    </footer>
+</body>
+</html>
